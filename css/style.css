@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.headerBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+li.headerMenu__item {
+    display: inline-block;
+}
+
+li.headerMenu__item a {
+   padding: 12px 15px;
+    color: #373737;
+    text-decoration: none;
+}
+
+li.headerMenu__item a:hover {
+    background: #373737;
+    color: white;
+}
+.mainBunner__title {
+
+}
+
+li.headerMenu__item-active a {
+    background: #373737;
+    color: white;
+}
+
+.mainBunner {
+    margin-top: 50px;
+    background: white;
+}
+
+.mainBunnerTextblock {
+    width: 30%;
+    float: left;
+    color: #7c7c7c;
+}
+.mainBunner__subTitle {
+    font-size: 20px;
+}
+.mainBunner__userAction {
+    background-color: black;
+    padding: 6px;
+    width: 60%;
+}
+.userAction__icon img {
+    float: left;
+    width: 20%;
+}
+.userAction__text {
+    width: 66%;
+    margin-left: 28%;
+}
+.mainBunnerImgContent img {
+    width: 70%;
+}
+main {
+    display: flex;
+    align-items: flex-start;
+}
+.articlesBlock {
+
+    width: 80%;
+    /*background: lightgray;*/
+    padding-right: 25px;
+}
+.mainArticles__img{
+    width: 310px;
+    min-width: 310px;
+    margin-right: 25px;
+}
+.mainArticles{
+    display: flex;
+}
+.mainArticlesMeneger img {
+    width: auto;
+}
+
+.mainArticlesManeger {
+    display: flex;
+    margin-left: auto;
+}
+.mainArticles__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mainArticlesManager__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+}
+
+.mainArticlesManager__arrow-left {
+
+    background: #7c7c7c;
+}
+.mainArticlesManager__arrow-right {
+
+    background: #989898;
+}
+
+.sidebar {
+    height: 200px;
+    width: 30%;
+    background: gray;
+
+}
+.blog {
+    width: 60%;
+    padding-top: 50px;
+}
+.blogtext {
+    width: 30%;
+    padding: 10px;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    background: #3a3a3a;
+    height: 100px;
+    margin-top: 250px;
+    clear: both;
+}
+.probel {
+    width: 20%;
+    float: left;
+    height: 100px;
+}
+.copy {
+    color: white;
+    text-align: center;
+    width: 58%;
+    float: left;
+    }
+.copy p {
+    padding-top: 50px;
+    float: left;
+    width: 100%;
+}
+.social {
+    width: 20%;
+    float: right;
+    height: 50px;
+    padding-top: 50px;
+
+}

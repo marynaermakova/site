@@ -122,15 +122,12 @@ main {
 }
 
 .sidebar {
-    height: 200px;
+    height: 100%;
     width: 30%;
     background: gray;
 
 }
-.blog {
-    width: 60%;
-    padding-top: 50px;
-}
+
 .blogtext {
     width: 30%;
     padding: 10px;
@@ -166,4 +163,143 @@ main {
     height: 50px;
     padding-top: 50px;
 
+}
+
+/***/
+
+.blogimg_1{
+    background: #86e7f0;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+.blogimg_2{
+    background: #3a3a3a;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    
+    
+}
+.blogr{
+    float: right;
+    border: 1px solid red;
+    width: 30%;
+    
+}
+
+
+.blog {
+    width: 60%;
+    border: 1px solid red;
+    float: left;
+}
+
+.cirle{
+    width: 120px; height: 120px;
+    background: #ef80a0;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid #ffffff;
+    top: -26px;
+    left: 92px;
+}
+
+.c_numb{
+    
+      font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    top: 28%;
+    left: 25%;
+}
+
+.text_in_block{
+    position: absolute;
+    top:100px;
+    left: -6px;
+    
+}
+
+.blogimg_1 .text_in_block{
+    position: absolute;
+    top:100px;
+    left: -6px;
+    
+}
+
+.blogimg_2 .text_in_block{
+    position: absolute;
+    top:20px;
+    left: -6px;
+    
+}
+
+.blogimg_1 #t1{
+    color: #ffffff;
+    font-size: 46px;
+    
+}
+
+.blogimg_1 #t2{
+    color: #ffffff;
+    font-size: 26px;
+    
+}
+.blogimg_1  #t3{
+    color: #ffffff;
+    background-color: #ef80a0;
+    padding: 15px 47px 15px 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 130px;
+    left: 28%;
+}
+
+.blogimg_2 #t1{
+    color: #ffffff;
+    font-size: 36px;
+    
+}
+
+.blogimg_2 #t2{
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.blogimg_2  #t3{
+    color: #ffffff;
+    background-color: #ef80a0;
+    padding: 15px 47px 15px 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 213px;
+    left: 28%;
+}
+
+.inp{
+    position: absolute;
+    top: 106%;
+    left: 2%;
+    width: 100%;
+    margin-top: 10px;
+    
+    
+}
+
+
+.inp input{
+    
+    width: 80%;
+    height: 25px;
+    margin-top: 10px;
+    
+    
 }
